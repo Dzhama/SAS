@@ -73,7 +73,6 @@ nav {
 nav .container {
 	justify-content: space-between;
 } 
-
 li {
 	display: inline;
 	color: white;
@@ -81,7 +80,88 @@ li {
 li a  {
 	text-decoration: none;
 	color: white;
-	
 }
 
+/* MAIN CONTENT */
+.main {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+}
+.main .container {
+	display: flex;
+	flex-direction: column;
+} 
 
+/* BUSINESS PRODUCT STYLING*/
+.product {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.product-box {
+	border: 4px solid black;
+	height: 15rem;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.product-image {
+	padding: 2rem 0rem;
+}
+.product-image img {
+	height: 9rem;
+}
+.glasses img {
+	width: 65%;
+	display: flex;
+	margin: auto;
+}
+.product-box span {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 2rem;
+	padding: 0.5rem 0rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+/* BUSINESS INFORMATION  STYLING */
+.info {
+	margin-top: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.info-box {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+}
+.info-box span {
+	display: inline;
+}
+.title {
+	background-color: black;
+	color: white;
+	padding: 1rem 0rem 1rem 2rem;
+}
+
+/* FOOTER*/
+footer {
+	background-color: black;
+	color: white;
+	text-align: left;
+	height: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
